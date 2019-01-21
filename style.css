@@ -84,7 +84,7 @@ span {
         font-size: 11px;
         margin: 1px;
         height: 3px;
-        width: 2px;
+        width: 0px;
     }
     .line:first-of-type span:first-of-type{
        z-index: 1000;;
