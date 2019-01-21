@@ -1,7 +1,7 @@
 
 var stars = document.getElementsByTagName('span');
 var count = 0; //formiranje stabla, kaunter za ponavljanje funkcija
-var num = 26; //visina krošnje
+var num = 30; //visina krošnje
 var buttons = Array.from(document.getElementsByTagName('button'));
 var shape = "star";
 var main = document.getElementsByTagName('main')[0];
