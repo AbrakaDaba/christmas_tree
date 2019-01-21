@@ -92,6 +92,6 @@ span {
         line-height: 30px;
     }
     .line:first-of-type{
-        height: 40px;
+        overflow: visible;
     }
 }
