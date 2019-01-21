@@ -1,7 +1,7 @@
 
 var stars = document.getElementsByTagName('span');
-var count = 0; //formiranje stabla, kaunter za ponavljanje funkcija
-var num = 30; //visina krošnje
+var count = 0; //counter for repeating creating trunk function
+var num = 30; //tree height
 var buttons = Array.from(document.getElementsByTagName('button'));
 var shape = "star";
 var main = document.getElementsByTagName('main')[0];
