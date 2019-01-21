@@ -1,2 +1,2 @@
 # christmas_tree
-java Script playing with Random
+Java Script playing with Random colors
