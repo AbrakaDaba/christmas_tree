@@ -77,8 +77,7 @@ span {
         height: 33px;
     }
     .line{
-        height: 15px;
-        overflow: hidden;
+        height: 15px;    
     }
     span{
         font-size: 10px;
