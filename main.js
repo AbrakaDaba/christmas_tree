@@ -1,7 +1,7 @@
 
 var stars = document.getElementsByTagName('span');
 var count = 0; //counter for repeating creating trunk function
-var num = 30; //tree height
+var num = 25; //tree height
 var buttons = Array.from(document.getElementsByTagName('button'));
 var shape = "star";
 var main = document.getElementsByTagName('main')[0];
@@ -33,7 +33,7 @@ function creatingTree() {
 function trunk() {
     var text = '<div class="line2">';
     for (let i = 0; i < 5; i++) {
-        text += '<div style="color:brown; margin:' + (count - 4) + 'px;" class="glyphicon glyphicon-align-justify"></div>';
+        text += '<div style="color:#f23a1d; margin:' + (count - 4) + 'px;" class="glyphicon glyphicon-align-justify"></div>';
     }
     main.innerHTML += (text + '</div>');
     if (++count < 4) {
