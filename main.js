@@ -21,7 +21,7 @@ buttons.forEach((el) => {
 function creatingTree() {
     var text = '<div class="line">';
     for (var i = 0; i < num; i++) {
-        text += '<span style="margin-left:' + i * (0.7) + 'px"class="glyphicon glyphicon-' + shape + '"></span>';
+        text += '<span style="margin-left:' + i + 'px"class="glyphicon glyphicon-' + shape + '"></span>';
         main.innerHTML += (text + '</div>');
     }
     if (i == num) {
