@@ -3,7 +3,7 @@ var stars = document.getElementsByTagName('span');
 var count = 0; //counter for repeating creating trunk function
 var num = 25; //tree height
 var buttons = Array.from(document.getElementsByTagName('button'));
-var shape = "star";
+var shape = "heart-empty";
 var main = document.getElementsByTagName('main')[0];
 creatingTree();
 
