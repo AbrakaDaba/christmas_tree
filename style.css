@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#12295d, #000);
     height: 100vh;
     max-height: 100vh;
+    overflow: hidden;
 }
 
 header {
